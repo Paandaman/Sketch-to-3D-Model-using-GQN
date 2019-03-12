@@ -10,8 +10,8 @@ import pathlib
 import shutil
 
 def main():
-	dir =  "/home/maxnihr/Desktop/save_models/"#"path/to/preprocessed/data/"
-	output_dir = "/home/maxnihr/Desktop/save_sketches/"#"/home/maxnihr/Documents/PreProDataSketch/"
+	dir =  "path/to/preprocessed/data/"
+	output_dir = "/path/to/output_dir"
 	model_nr = 0
 	samples_per_model = 15
 	sketch_it = Sketch_Maker()
