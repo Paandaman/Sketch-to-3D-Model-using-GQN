@@ -13,3 +13,6 @@ The images are captured from 15 angles and saved together in a folder to represe
 2: Turn the images into sketches. Make sure you have the "model_gan.t7" in your directory, then specify the paths in sketchify.py and run the script.
 
 3: Convert all files into PyTorch tensor format and group sketches and ground truths(the images obtained before running sketchify) together. Run convertShapeNet2torch.py with the necessary arguments specified.
+
+4. Unzip all files, e.g. by running "gunzip *".
+
