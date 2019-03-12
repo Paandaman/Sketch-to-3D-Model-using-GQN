@@ -5,7 +5,7 @@ The code used to produce the results in the enclosed thesis.
 # Create Dataset
 Requirements: Blender and pre-trained GAN model named "model_gan.t7" from https://esslab.jp/~ess/en/code/sketch_code/ . Sketch clean up network is based on: https://github.com/bobbens/sketch_simplification by Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki and Hiroshi Ishikawa.
 
-# Steps:
+Steps:
 1: Capture images of 3D models by rendering them in Blender from different view points. Specify the paths in capture_images.py and then run it as follows:
 blender test.blend -P capture_images.py
 The images are captured from 15 angles and saved together in a folder to represent a "scene".
