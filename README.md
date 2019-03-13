@@ -17,4 +17,8 @@ The images are captured from 15 angles and saved together in a folder to represe
 4. Unzip all files, e.g. by running "gunzip *".
 
 # GQN model
-The GQN implementation using the Convolutional DRAW is based on the work done by https://github.com/iShohei220 , with the modifications needed to render images from sketches. Training the model is computationally expensive and producing the results seen in the report required 16 days and 23 hours of training on a Nvidia GTX 1080 Ti. I got the advice from github users iShohei220 and brettgohre that setting the rollout length of the LSTM (L) to 8 instead of 12 and lowering the learning rate by a magnitude of 10 helped speeding up the learning process. This does however also reduce the quality of the final results so for the results seen in the paper, the rollout length was set to 12.  
+The GQN implementation using the Convolutional DRAW is based on the work done by https://github.com/iShohei220 , with the modifications needed to render images from sketches. Training the model is computationally expensive and producing the results seen in the report required 16 days and 23 hours of training on a Nvidia GTX 1080 Ti. I got the advice from github users iShohei220 and brettgohre that setting the rollout length of the LSTM (L) to 8 instead of 12, lowering the learning rate by a magnitude of 10 and using shared cores in the LSTM helped speeding up the learning process. This does however also reduce the quality of the final results so for the results seen in the paper, the rollout length was set to 12. 
+
+The training script can e.g. be exacuted as follows:
+
+python3 train.py --train_data_dir /path/to/SketchDataset/Train --test_data_dir /path/to/SketchDataset/Test --log_dir /path/to/log/dir --shared_core True
