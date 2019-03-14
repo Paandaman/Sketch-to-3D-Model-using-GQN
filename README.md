@@ -27,6 +27,6 @@ The training script can e.g. be executed as follows:
 
 python3 train.py --train_data_dir /path/to/SketchDataset/Train --test_data_dir /path/to/SketchDataset/Test --log_dir /path/to/log/dir --shared_core True
 
-Example of a single sketch rendered from various view points:
+Example of a single, real sketch rendered from various view points:
 
 ![alt text](https://github.com/Paandaman/Sketch-to-3D-Model-using-GQN/blob/master/Singlesketch.png)
