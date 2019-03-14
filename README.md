@@ -2,7 +2,7 @@
 The code used to produce the results in the enclosed thesis.
 
 
-# Create Dataset
+# Create Dataset - Turn 3D models into 2D sketches
 Requirements: Blender and pre-trained GAN model named "model_gan.t7" from https://esslab.jp/~ess/en/code/sketch_code/ . Sketch clean up network is based on: https://github.com/bobbens/sketch_simplification by Edgar Simo-Serra, Satoshi Iizuka, Kazuma Sasaki and Hiroshi Ishikawa.
 
 Steps:
