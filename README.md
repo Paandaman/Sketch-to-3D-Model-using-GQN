@@ -30,3 +30,7 @@ python3 train.py --train_data_dir /path/to/SketchDataset/Train --test_data_dir /
 Example of a single, real sketch rendered from various view points:
 
 ![alt text](https://github.com/Paandaman/Sketch-to-3D-Model-using-GQN/blob/master/Singlesketch.png)
+
+Example of images generated in real time below. Links to a YouTube video:
+
+[![alt text](https://img.youtube.com/vi/WChV4mcz8dc/0.jpg)](https://www.youtube.com/watch?v=WChV4mcz8dc "Sketch to 3D Model")
