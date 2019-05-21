@@ -301,7 +301,7 @@ parser.add_argument('--path_to_model', type=str, default='.', help='Path to trai
 parser.add_argument('--path_to_real_sketch', type=str, default='.', help='Path to to real sketch')
 opt = parser.parse_args()
 
-path = opt.path_to_model#"/media/maxnihr/theVoid/LatDRAW/20190215113933ShapeN/20190308102333model-950000.pt"
+path = opt.path_to_model
 
 torch.cuda.set_device(0)
 
@@ -316,7 +316,7 @@ model.cuda()
 
 torch.manual_seed(2) 
 
-path_test = opt.test_dataset #"/home/maxnihr/Documents/SketchNetDataset/Full_torch_test"
+path_test = opt.test_dataset 
 
 test_data = ShapeNetDatasetSketch(path_test)
 test_loader = data.DataLoader(test_data, batch_size = opt.batch_size, shuffle=True, drop_last = True)
