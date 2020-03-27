@@ -1,5 +1,5 @@
 # Sketch-to-3D-Model-using-GQN
-The code used to produce the results in my thesis found at http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1315752&dswid=4577 .
+The code used to produce the results in my master thesis which can be found at http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A1315752&dswid=4577 .
 
 
 # Create Dataset - Turn 3D models into 2D sketches
